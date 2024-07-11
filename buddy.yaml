@@ -95,7 +95,7 @@
         - "# Turn Craft off"
         - "php craft off --retry=60"
         - "# Restart our long running queue listener process. Cannot be done here, must be done within ploi. with curl restart the daemon via ploi deploy script"
-        - "curl -X POST https://ploi.io/webhooks/servers/74284/sites/227068/deploy?token=yEThroTfkp4if0ccWcDg5Uf61lgbenY5M6oc3xFdsIziu2RyYi&direct=true"
+        - "curl -X POST https://ploi.io/webhooks/servers/74284/sites/227135/deploy?token=6b2YmyYXeL03gXsmSLpEGRkwL9G03N3sjphQAVo9VGf5nLfJUk&direct=true"
         - "# Backup the database just in case any migrations or Project Config changes have issues"
         - "php craft db/backup"
         - "# Clear caches"
