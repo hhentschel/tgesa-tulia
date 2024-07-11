@@ -14,7 +14,7 @@ import * as path from 'path'
 export default defineConfig(({command}) => ({
   base: command === 'serve'? '' : '/dist/',
   build: {
-    outDir: 'dist',
+    outDir: '../cms/web/dist',
     emptyOutDir: true,
     manifest: true,
     rollupOptions: {
@@ -63,7 +63,7 @@ export default defineConfig(({command}) => ({
     }),
     manifestSRI(),
     visualizer({
-      filename: '../src/web/dist/assets/stats/html',
+      filename: '../cms/web/dist/assets/stats.html',
       template: 'treemap',
       sourcemap: true,
     }),
