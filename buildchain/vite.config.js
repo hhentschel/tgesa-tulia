@@ -62,11 +62,11 @@ export default defineConfig(({command}) => ({
       filter: /\.(js|mjs|json|css|map)$/i
     }),
     manifestSRI(),
-    visualizer({
-      filename: '../cms/web/dist/assets/stats.html',
-      template: 'treemap',
-      sourcemap: true,
-    }),
+    // visualizer({
+    //   filename: '../cms/web/dist/assets/stats.html',
+    //   template: 'treemap',
+    //   sourcemap: true,
+    // }),
     // eslintPlugin({
     //   fix: true,
     //   cache: false,
