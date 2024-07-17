@@ -29,7 +29,7 @@ export default defineConfig(({command}) => ({
   plugins: [
     critical({
       criticalUrl: 'https://google.com',
-      criticalBase: '../web/dist/criticalcss/',
+      criticalBase: '../cms/web/dist/criticalcss/',
       criticalPages: [
         {
           uri: '/',
