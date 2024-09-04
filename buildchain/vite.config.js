@@ -14,7 +14,7 @@ import * as path from 'path'
 export default defineConfig(({command}) => ({
   base: command === 'serve'? '' : '/dist/',
   build: {
-    outDir: '../cms/web/dist',
+    outDir: '../web/dist',
     emptyOutDir: true,
     manifest: true,
     rollupOptions: {
