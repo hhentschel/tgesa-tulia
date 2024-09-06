@@ -29,7 +29,7 @@ export default defineConfig(({command}) => ({
   plugins: [
     critical({
       criticalUrl: 'https://staging.tsega-tulia.ch',
-      criticalBase: '../web/dist/criticalcss/',
+      criticalBase: '../cms/web/dist/criticalcss/',
       criticalPages: [
         {
           uri: '/',
