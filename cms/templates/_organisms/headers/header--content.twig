@@ -1,0 +1,31 @@
+{%- extends '_organisms/headers/_header--props' -%}
+{%- import '_macros/organic' as organisms -%}
+{%- import '_macros/atomic' as atoms -%}
+
+{%- block header -%}
+    {%- set classes = collect({
+        color: props.get('color') ??? 'text-black',
+        font: 'font-primary',
+        size: 'text-h1-sm md:text-h1-md lg:text-h1-lg',
+        utilities: props.get('utilities'),
+    }) -%}
+
+    {%- minify -%}
+        <header class="z-10 relative ">
+                {# <div class="header__content relative top-96 text-xl z-10">
+                    {{- props.get('content')|striptags('<strong>')|typogrify()|raw -}}
+                </div> #}
+                <h1 class="{{ classes.implode(' ') }}">Ferienwohnung in MON</h1>
+                <div class="header__bg">
+                 {{- atoms.atom('image', 'hero',  {
+                    image: header.imageHero.eagerly().collect.first,
+                    sizes: '100vw',
+                    placeholder: 'image',
+                    loadingStrategy: 'eager',
+                    utilitiesImage: 'w-full h-full',
+                    utilitiesPicture: 'header__bg-image'
+                }) -}}
+                </div>
+        </header>
+    {%- endminify -%}
+{%- endblock -%}
