@@ -1,10 +1,24 @@
 {%- import '_macros/atomic' as atoms -%}
 
-<div class="my-5 flex">
+{# <div class="my-5">
+ {% for image in entry.imageContent %}
 {{- atoms.atom('image', 'content',  {
     image: entry.imageContent.one(),
     sizes: '50vw',
     placeholder: 'image',
+    caption: entry.caption,
+    loadingStrategy: 'lazy'
+}) -}}
+{% endfor %}
+</div> #}
+
+ {# <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto container"> #}
+<div class="my-5">
+{{- atoms.atom('image', 'content',  {
+    image: entry.imageContent.one(),
+    sizes: '50vw',
+    placeholder: 'image',
+    caption: entry.caption,
     loadingStrategy: 'lazy'
 }) -}}
 

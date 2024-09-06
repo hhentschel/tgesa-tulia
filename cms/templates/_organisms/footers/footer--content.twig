@@ -13,9 +13,9 @@
 
 {%- block footer -%}
     {%- set classes = collect({
-        color: props.get('color') ??? 'text-green-500',
+        color: props.get('color') ??? 'text-white',
         font: 'font-primary',
-        size: '',
+        size: 'text-4xl',
         utilities: props.get('utilities'),
     }) -%}
 
@@ -24,7 +24,7 @@
             <div class="footer__content container">
             <h2 id="footer-headline" class="visually-hidden">Footer Hidden</h2>
 
-            {{- props.get('content')|striptags('<strong>')|typogrify()|raw -}}
+            {# {{- props.get('content')|striptags('<strong>')|typogrify()|raw -}} #}
 
             {% set footer_columns = footer.footer.all() %}
             {% if footer_columns %}

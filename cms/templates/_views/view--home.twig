@@ -1,13 +1,51 @@
 {%- import '_macros/atomic' as atoms -%}
 
-<div class="container bg-cyan-100">
+<div class="container bg-amber-100">
 
-    {{ entry.title }}
+    {# {{ entry.title }} #}
 
-    <div class="">
+      <div class="p-10 flex flex-wrap gap-8">
+
+
         {{ entry.HomeContent }}
 
-        <div class="">
+
+        <div class="flex flex-col">
+
+
+{% for block in entry.contentBuilder.all() %}
+  {% switch block.type %}
+
+    {% case "cta" %}
+      {{ block.render() }}
+
+     {% case "richText" %}
+      {{ block.render() }}
+
+    {% case "images" %}
+      {{ block.render() }}
+
+    {% case "featureList" %}
+      {{ block.render({ loop, themeColor: "lightblue" }) }}
+
+    {% case "relatedEntries" %}
+     {{ block.render() }}
+
+    {% case "table" %}
+      {{ block.render() }}
+
+    {% default %}
+
+
+  {% endswitch %}
+
+{% endfor %}
+</div>
+
+
+            {{ entry.longformContent }}
+
+        {# <div class="">
             {{- atoms.atom('image', 'hero',  {
                 image: entry.imageHero.eagerly().collect.first,
                 sizes: '30vw',
@@ -15,7 +53,7 @@
                 loadingStrategy: 'eager',
                 utilities: ''
             }) -}}
-        </div>
+        </div> #}
     </div>
 </div>
 

@@ -11,10 +11,11 @@
     }) -%}
 
     {%- minify -%}
-        <header class="{{ classes.implode(' ') }}">
-                <div class="header__content relative z-10">
+        <header class="z-10 relative ">
+                {# <div class="header__content relative top-96 text-xl z-10">
                     {{- props.get('content')|striptags('<strong>')|typogrify()|raw -}}
-                </div>
+                </div> #}
+                <h1 class="{{ classes.implode(' ') }}">Ferienwohnung in MON</h1>
                 <div class="header__bg">
                  {{- atoms.atom('image', 'hero',  {
                     image: header.imageHero.eagerly().collect.first,
