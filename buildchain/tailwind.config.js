@@ -8,17 +8,17 @@ module.exports = {
   safelist: [],
   theme: {
     fontSize: {
-      'h1-sm': ['2.375rem', {
+      'h1-sm': ['3.375rem', {
           lineHeight: '1.4',
           letterSpacing: '0.06em',
           fontWeight: '700',
       }],
-      'h1-md': ['3rem', {
+      'h1-md': ['4.5rem', {
           lineHeight: '1.4',
           letterSpacing: '0.06em',
           fontWeight: '700',
       }],
-      'h1-lg': ['3.5rem', {
+      'h1-lg': ['6rem', {
           lineHeight: '1.4',
           letterSpacing: '0.06em',
           fontWeight: '700',
@@ -26,7 +26,7 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '2rem',
+      padding: '1rem',
     },
   },
   extend: {
