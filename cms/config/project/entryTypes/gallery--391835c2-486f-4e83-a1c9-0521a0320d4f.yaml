@@ -1,6 +1,6 @@
-color: emerald
+color: null
 fieldLayouts:
-  85327d99-f063-42be-b71a-f7a40544274a:
+  3924ceb9-9453-47ca-a7c1-573e9103730a:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-10T22:09:51+00:00'
+            dateAdded: '2024-09-10T21:58:16+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,28 +31,28 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 890df5a4-a742-4c34-bdc5-739922a6297e
+            uid: 958be9ab-f991-4865-b7a8-d41189dec41d
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-10T22:09:51+00:00'
+            dateAdded: '2024-09-10T22:00:31+00:00'
             elementCondition: null
             fieldUid: bdf32217-a781-41f4-8a9d-ba623b04e90a # Image Content
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: true
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 30ee2914-291d-4ce1-82c1-47fb14722261
+            uid: 9b62da29-1b6c-4442-a757-13b824ea94c8
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-10T22:09:51+00:00'
+            dateAdded: '2024-09-10T22:00:09+00:00'
             elementCondition: null
             fieldUid: 9dc35b77-87de-4411-91b1-05d093c994b9 # Caption
             handle: null
@@ -63,17 +63,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bd7567e2-e9e7-475d-b0cc-4c0c8faafd3f
+            uid: c10aa4d3-e96e-4910-9605-dc0a796be3a8
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 8e2653fb-3d37-4e07-bef9-cc8e2217644a
+        uid: ba23b168-1218-49e1-8c7e-4419e33d74b5
         userCondition: null
-handle: images
-hasTitleField: false
+handle: gallery
+hasTitleField: true
 icon: images
-name: Images
+name: Galerie
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

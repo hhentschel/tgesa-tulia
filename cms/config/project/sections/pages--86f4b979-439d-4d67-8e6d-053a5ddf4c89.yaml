@@ -3,6 +3,8 @@ enableVersioning: true
 entryTypes:
   - fc95636f-567a-49fe-a410-86de9a5ea3cc # Landingpage
   - fedb00ce-c6fb-4ef7-ba11-7c52ac8a5510 # Blog-Overview
+  - a48dc8f4-3875-41c9-adce-c6c05b2756c9 # Kontakt
+  - e83c75b1-8eeb-493a-bbe4-bd4c8e737a06 # Seiten
 handle: pages
 maxAuthors: 1
 name: Pages

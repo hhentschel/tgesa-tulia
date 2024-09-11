@@ -12,6 +12,7 @@ settings:
     - 26db054c-db10-4316-b753-0544f54f6710 # Related Entries
     - 2a3500d7-9902-4400-9a6d-7564e565cd9d # Feature List
     - 7601d3fa-9b2e-43fb-9b7a-d31bdc9d1e90 # Tabelle
+    - 391835c2-486f-4e83-a1c9-0521a0320d4f # Galerie
   includeTableView: false
   maxEntries: null
   minEntries: null

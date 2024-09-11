@@ -23,6 +23,47 @@ module.exports = {
           letterSpacing: '0.06em',
           fontWeight: '700',
       }],
+      'xs': ['.75rem', {
+        lineHeight: '1',
+
+        fontWeight: '300',
+      }],
+      'sm': ['.875rem', {
+        lineHeight: '1,25',
+
+        fontWeight: '300',
+      }],
+      'base': ['1rem', {
+        lineHeight: '1.5',
+
+        fontWeight: '300',
+      }],
+      'lg': ['1.125rem', {
+        lineHeight: '1.75',
+
+        fontWeight: '300',
+      }],
+      'xl': ['1.25rem', {
+        lineHeight: '1.75',
+        letterSpacing: '0.06em',
+        fontWeight: '300',
+      }],
+      '2xl': ['1.5rem', {
+        lineHeight: '1.75',
+        letterSpacing: '0.06em',
+        fontWeight: '300',
+      }],
+      '3xl': ['1.875rem', {
+        lineHeight: '1.75',
+        letterSpacing: '0.06em',
+        fontWeight: '300',
+      }],
+      '4xl': ['2.25rem', {
+        lineHeight: '1.75',
+        letterSpacing: '0.06em',
+        fontWeight: '300',
+      }],
+
     },
     container: {
       center: true,

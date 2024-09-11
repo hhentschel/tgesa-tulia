@@ -55,7 +55,7 @@ fieldLayouts:
         uid: 79140bc4-9d05-4dab-a9cb-5f39b2cced02
         userCondition: null
 handle: richText
-hasTitleField: true
+hasTitleField: false
 icon: ''
 name: 'Rich Text'
 showSlugField: true

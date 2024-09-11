@@ -1,0 +1,25 @@
+{#--- _components/contact-form ---#}
+
+{# Sets default values if not defined by the input fields below #}
+{% set fromName = fromName ?? '' %}
+{% set fromEmail = fromEmail ?? '' %}
+{% set message = message ?? '' %}
+
+{% if sprig.isSuccess %}
+  <p>Vielen Dank! Ihre Nachricht wurde gesendet.</p>
+{% elseif sprig.isError %}
+  {# The `errors` variable is defined by the contact form controller on failure #}
+  {% if errors is defined %}
+    {% for error in errors %}
+      <p class="error">{{ error|first }}</p>
+    {% endfor %}
+  {% endif %}
+{% else %}
+  {# Posts to the `send` action on submit #}
+  <form sprig s-method="post" s-action="contact-form/send" class="flex flex-col gap-6 w-96">
+    <input type="text" name="fromName" value="{{ fromName }}" placeholder="Name" class="p-4">
+    <input type="email" name="fromEmail" value="{{ fromEmail }}" placeholder="E-Mail" class="p-4">
+    <textarea name="message" placeholder="Nachricht" class="p-4">{{ message }}</textarea>
+    <input type="submit" value="Nachricht senden" class="p-4 bg-amber-800 w-1/2 text-white">
+  </form>
+{% endif %}

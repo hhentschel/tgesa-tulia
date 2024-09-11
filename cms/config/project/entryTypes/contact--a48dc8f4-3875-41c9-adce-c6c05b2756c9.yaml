@@ -1,6 +1,6 @@
-color: emerald
+color: null
 fieldLayouts:
-  85327d99-f063-42be-b71a-f7a40544274a:
+  422d1564-95a5-47b0-b32c-bad04441e2b3:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-10T22:09:51+00:00'
+            dateAdded: '2024-09-10T20:42:00+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,30 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 890df5a4-a742-4c34-bdc5-739922a6297e
+            uid: 80a47da2-9e8e-4ab3-ba2b-c51afef6cd04
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-10T22:09:51+00:00'
+            dateAdded: '2024-09-10T20:43:28+00:00'
             elementCondition: null
-            fieldUid: bdf32217-a781-41f4-8a9d-ba623b04e90a # Image Content
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: true
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 30ee2914-291d-4ce1-82c1-47fb14722261
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-09-10T22:09:51+00:00'
-            elementCondition: null
-            fieldUid: 9dc35b77-87de-4411-91b1-05d093c994b9 # Caption
+            fieldUid: 6a8579a0-7f72-41c9-9a9b-4d6d4f5ad746 # Content Builder
             handle: null
             includeInCards: false
             instructions: null
@@ -63,17 +47,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bd7567e2-e9e7-475d-b0cc-4c0c8faafd3f
+            uid: 4aee1ccf-d465-408d-95dd-eacfe6a5802f
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 8e2653fb-3d37-4e07-bef9-cc8e2217644a
+        uid: 1e4d0ede-7f67-4397-b176-db196c16463a
         userCondition: null
-handle: images
-hasTitleField: false
-icon: images
-name: Images
+handle: contact
+hasTitleField: true
+icon: id-card
+name: Kontakt
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
