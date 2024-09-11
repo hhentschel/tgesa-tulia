@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-11T01:03:09-07:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-11T01:03:09-07:00'
             elementCondition: null
             fieldUid: fff166a9-5cfa-4eb2-aa7c-52a2f34b8a47 # CTA Text
             handle: null
@@ -50,6 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-11T01:03:09-07:00'
             elementCondition: null
             fieldUid: fab38811-fef1-4fc7-a7d4-7aeb3437eb35 # CTA Url
             handle: null
@@ -75,6 +78,6 @@ showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

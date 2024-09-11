@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-11T01:03:09-07:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-11T01:03:09-07:00'
             elementCondition: null
             fieldUid: e57dd80e-fbbb-45c8-9086-b5a5368c2429 # Image Hero
             handle: null
@@ -54,12 +56,12 @@ fieldLayouts:
         userCondition: null
 handle: landingpage
 hasTitleField: true
-icon: ''
+icon: null
 name: Landingpage
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

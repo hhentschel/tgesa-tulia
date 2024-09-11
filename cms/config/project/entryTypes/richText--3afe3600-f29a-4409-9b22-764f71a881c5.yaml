@@ -56,12 +56,12 @@ fieldLayouts:
         userCondition: null
 handle: richText
 hasTitleField: false
-icon: ''
+icon: null
 name: 'Rich Text'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

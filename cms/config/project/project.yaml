@@ -1,4 +1,4 @@
-dateModified: 1726037623
+dateModified: 1726041849
 email:
   fromEmail: p@henrik-hentschel.de
   fromName: CraftDev
@@ -61,6 +61,10 @@ fs:
       subfolder: teaser-images
     type: craft\awss3\Fs
     url: $CLOUDFRONT_IO_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     1ecc4fa4-7e2d-4364-b61c-3a77a8f22390: 'Footer Content' # Footer Content
@@ -216,10 +220,3 @@ system:
   name: CraftDev
   schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  require2fa: false
-  requireEmailVerification: true

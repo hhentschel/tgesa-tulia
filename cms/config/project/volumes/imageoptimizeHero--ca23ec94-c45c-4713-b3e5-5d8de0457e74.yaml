@@ -11,6 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-11T01:03:10-07:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,6 +37,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-11T01:03:10-07:00'
             elementCondition: null
             fieldUid: 1230e3f3-1ac1-4b89-9150-35cbf1f39ff2 # Image Hero Optimized
             handle: null
