@@ -19,7 +19,7 @@ previewTargets:
         - '{url}'
 propagationMethod: all
 siteSettings:
-  b770f7e5-3411-4c52-91e3-c5929d334207: # CraftDev
+  b770f7e5-3411-4c52-91e3-c5929d334207: # Tgesa-Tulia
     enabledByDefault: true
     hasUrls: true
     template: _routers/router--page.twig

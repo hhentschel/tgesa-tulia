@@ -1,8 +1,16 @@
-dateModified: 1726041849
+dateModified: 1726217930
 email:
   fromEmail: p@henrik-hentschel.de
-  fromName: CraftDev
-  transportType: craft\mail\transportadapters\Sendmail
+  fromName: "Tgesa-Tulia |\_Ferienwohnung MON"
+  replyToEmail: null
+  template: null
+  transportSettings:
+    host: mail.smtp2go.com
+    password: rqgn12FBTHYrCn6r
+    port: '2525'
+    useAuthentication: '1'
+    username: admintgesatulia
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   contentimages:
     hasUrls: true
@@ -95,7 +103,7 @@ meta:
     a2c173c5-4b31-4338-86ee-a0cb4aafc12b: Home # Home
     a48dc8f4-3875-41c9-adce-c6c05b2756c9: Kontakt # Kontakt
     b3f3c321-3167-4f74-8f3e-a3a6a7b75f96: Description # Description
-    b770f7e5-3411-4c52-91e3-c5929d334207: CraftDev # CraftDev
+    b770f7e5-3411-4c52-91e3-c5929d334207: Tgesa-Tulia # Tgesa-Tulia
     b64266e0-f780-4789-82af-577ebebb1372: Footer # Footer
     bdf32217-a781-41f4-8a9d-ba623b04e90a: 'Image Content' # Image Content
     c3a6b49e-2ca2-47c0-b154-7eb46f85bd2f: Header # Header
@@ -217,6 +225,7 @@ plugins:
 system:
   edition: solo
   live: true
-  name: CraftDev
+  name: Tgesa-Tulia
+  retryDuration: null
   schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
