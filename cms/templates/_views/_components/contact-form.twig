@@ -16,7 +16,7 @@
   {% endif %}
 {% else %}
   {# Posts to the `send` action on submit #}
-  <form sprig s-method="post" s-action="contact-form/send" class="flex flex-col gap-6 w-96">
+  <form sprig s-method="post" s-action="contact-form/send" class="flex flex-col gap-8 w-96">
     <input type="text" name="fromName" value="{{ fromName }}" placeholder="Name" class="p-4">
     <input type="email" name="fromEmail" value="{{ fromEmail }}" placeholder="E-Mail" class="p-4">
     <textarea name="message" placeholder="Nachricht" class="p-4">{{ message }}</textarea>
