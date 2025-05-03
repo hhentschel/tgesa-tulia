@@ -1,4 +1,4 @@
-dateModified: 1726217930
+dateModified: 1746305519
 email:
   fromEmail: p@henrik-hentschel.de
   fromName: "Tgesa-Tulia |\_Ferienwohnung MON"
@@ -142,7 +142,7 @@ plugins:
       allowAttachments: ''
       allowedMessageFields: null
       prependSender: ''
-      prependSubject: 'Neue Nachricht von tsega-tulia.ch '
+      prependSubject: 'Neue Nachricht von tgesa-tulia.ch '
       successFlashMessage: 'Vielen Dank. Ihre Nachricht wurde gesendet.'
       toEmail: h21@pm.me
   cp-field-inspect:
@@ -227,5 +227,5 @@ system:
   live: true
   name: Tgesa-Tulia
   retryDuration: null
-  schemaVersion: 5.3.0.2
+  schemaVersion: 5.7.0.3
   timeZone: America/Los_Angeles
