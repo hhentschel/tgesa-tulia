@@ -32,7 +32,7 @@ return GeneralConfig::create()
     ->securityKey(App::env('CRAFT_SECURITY_KEY'))
     ->disallowRobots(App::env('CRAFT_DISALLOW_ROBOTS'))
     // Craft config settings from constants
-    ->cpTrigger('cp')
+    //->cpTrigger('cp')
     ->defaultTokenDuration('P1D')
     ->enableCsrfProtection(true)
     ->errorTemplatePrefix('errors/')
