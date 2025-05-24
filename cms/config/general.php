@@ -23,8 +23,8 @@ return GeneralConfig::create()
     //     '@assetsUrl' => dirname(__DIR__) . '/web/dist',
     // ])
 
-    ->allowUpdates(App::env('CRAFT_ALLOW_UPDATES'))
-    ->allowAdminChanges(App::env('CRAFT_ALLOW_ADMIN_CHANGES'))
+    ->allowUpdates(App::env('CRAFT_ALLOW_UPDATES')?? false)
+    ->allowAdminChanges(App::env('CRAFT_ALLOW_ADMIN_CHANGES')?? false)
     ->backupOnUpdate(App::env('CRAFT_BACKUP_ON_UPDATE'))
     ->devMode(App::env('CRAFT_DEV_MODE'))
     ->maxRevisions(App::env('CRAFT_MAX_REVISIONS'))
