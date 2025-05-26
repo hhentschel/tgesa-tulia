@@ -1,15 +1,15 @@
-dateModified: 1746305519
+dateModified: 1748279273
 email:
-  fromEmail: p@henrik-hentschel.de
+  fromEmail: $SYSTEM_EMAIL
   fromName: "Tgesa-Tulia |\_Ferienwohnung MON"
   replyToEmail: null
   template: null
   transportSettings:
-    host: mail.smtp2go.com
-    password: rqgn12FBTHYrCn6r
-    port: '2525'
+    host: $EMAIL_HOSTNAME
+    password: $EMAIL_PW
+    port: $EMAIL_PORT
     useAuthentication: '1'
-    username: admintgesatulia
+    username: $EMAIL_USERNAME
   transportType: craft\mail\transportadapters\Smtp
 fs:
   contentimages:
@@ -144,7 +144,7 @@ plugins:
       prependSender: ''
       prependSubject: 'Neue Nachricht von tgesa-tulia.ch '
       successFlashMessage: 'Vielen Dank. Ihre Nachricht wurde gesendet.'
-      toEmail: h21@pm.me
+      toEmail: $KONTAKT_EMAIL
   cp-field-inspect:
     edition: standard
     enabled: true
