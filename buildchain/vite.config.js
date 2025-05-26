@@ -27,17 +27,17 @@ export default defineConfig(({command}) => ({
     }
   },
   plugins: [
-    // critical({
-    //   criticalUrl: 'https://staging.tsega-tulia.ch',
-    //   criticalBase: '../cms/web/dist/criticalcss/',
-    //   criticalPages: [
-    //     {
-    //       uri: '/',
-    //       template: 'index',
-    //     }
-    //   ],
-    //   criticalConfig: {},
-    // }),
+    critical({
+      criticalUrl: 'https://tsega-tulia.ch',
+      criticalBase: '../cms/web/dist/criticalcss/',
+      criticalPages: [
+        {
+          uri: '/',
+          template: 'index',
+        }
+      ],
+      criticalConfig: {},
+    }),
     legacy({
       targets: ['defaults', 'not IE 11'],
     }),
